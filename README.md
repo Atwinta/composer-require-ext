@@ -9,7 +9,7 @@
         }
     ],
 ```
-выполнить команду composer install
+выполнить команду composer require "lira/composer-ext dev-master"
 
 # Официальная документация
 # composer-require-ext
