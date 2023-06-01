@@ -28,7 +28,7 @@ class Plugin implements PluginInterface, Capable
     public function getCapabilities()
     {
         return [
-            'Composer\Plugin\Capability\CommandProvider' => 'GO\RequireExtPlugin\PluginCommandProvider',
+            'Composer\Plugin\Capability\CommandProvider' => 'Lira\ComposerExt\PluginCommandProvider',
         ];
     }
 }
