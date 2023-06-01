@@ -1,6 +1,6 @@
 <?php
 
-namespace GO\RequireExtPlugin;
+namespace Lira\ComposerExt;
 
 use ReflectionObject;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -13,7 +13,7 @@ use Composer\Factory;
 class RequireExtCommand extends \Composer\Command\RequireCommand
 {
 
-    protected $pluginName = 'lira/composer-require-ext plugin';
+    protected $pluginName = 'lira/composer-ext';
     protected $addInsecure = false;
     protected $downloader = null;
 

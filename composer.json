@@ -1,5 +1,5 @@
 {
-    "name": "lira/composer-require-ext",
+    "name": "lira/composer-ext",
     "type": "composer-plugin",
     "description": "This Composer plugin adds \"require-ext\" command which makes using of private repositories and packages smoother.",
     "keywords": [
@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "none",
-            "email": "none@mail.ru"
+            "name": "lira",
+            "email": "puls@yandex.ru"
         }
     ],
     "require": {
@@ -21,11 +21,11 @@
     },
     "autoload": {
         "psr-4": {
-            "GO\\RequireExtPlugin\\": "src"
+            "Lira\\ComposerExt\\": "src"
         }
     },    
     "extra": {
-        "class": "GO\\RequireExtPlugin\\Plugin"
+        "class": "Lira\\ComposerExt\\Plugin"
     },
     "require-dev": {
         "composer/composer": "^2.0"

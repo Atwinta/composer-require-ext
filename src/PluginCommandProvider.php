@@ -1,6 +1,6 @@
 <?php
 
-namespace GO\RequireExtPlugin;
+namespace Lira\ComposerExt;
 
 use Composer\Plugin\Capability\CommandProvider;
 

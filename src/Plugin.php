@@ -1,6 +1,6 @@
 <?php
 
-namespace GO\RequireExtPlugin;
+namespace Lira\ComposerExt;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
