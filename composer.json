@@ -1,0 +1,33 @@
+{
+    "name": "guest-one/composer-require-ext",
+    "type": "composer-plugin",
+    "description": "This Composer plugin adds \"require-ext\" command which makes using of private repositories and packages smoother.",
+    "keywords": [
+        "composer-plugin",
+        "private-repository",
+        "require"
+    ],
+    "homepage": "https://bitbucket.org/GuestOne/composer-require-ext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Popov",
+            "email": "popov_e_n@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "composer-plugin-api": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GO\\RequireExtPlugin\\": "src"
+        }
+    },    
+    "extra": {
+        "class": "GO\\RequireExtPlugin\\Plugin"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    }
+}
