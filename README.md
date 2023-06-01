@@ -1,3 +1,17 @@
+# Установка
+Добавить в composer.json
+``` 
+"repositories": [
+
+        {
+            "type": "git",
+            "url": "https://github.com/Atwinta/composer-require-ext.git"
+        }
+    ],
+```
+выполнить команду composer install
+
+# Официальная документация
 # composer-require-ext
 
 This plugin is useful for teams working on closed projects big enough to split code into packages, but not big enough to bother of full-functional repository  ([Satis](https://github.com/composer/satis) or similar).
