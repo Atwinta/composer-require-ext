@@ -13,7 +13,7 @@ use Composer\Factory;
 class RequireExtCommand extends \Composer\Command\RequireCommand
 {
 
-    protected $pluginName = 'guest-one/composer-require-ext plugin';
+    protected $pluginName = 'lira/composer-require-ext plugin';
     protected $addInsecure = false;
     protected $downloader = null;
 
