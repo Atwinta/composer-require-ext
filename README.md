@@ -4,8 +4,8 @@
 "repositories": [
 
         {
-            "type": "git",
-            "url": "https://github.com/Atwinta/composer-require-ext.git"
+            "type": "vcs",
+            "url": "https://github.com/Atwinta/composer-require-ext"
         }
     ],
 ```
